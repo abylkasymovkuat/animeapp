@@ -5,11 +5,15 @@ document.querySelector('section').addEventListener('click', (e)=>{
          http.getMovie(e.target.getAttribute('data')).then(x=>{ui.drawAnime(x)})
     }
    })
-   
+
+document.addEventListener("DOMContentLoaded", () => {
+
 http.getMovies('https://kitsu.io/api/edge/anime?page[limit]=20/').then(x=>{x.data.forEach(element => {
     ui.drawAnimes(element);
     console.log(element)
 });});
+} );
+   
 
 document.querySelector('#movieName').addEventListener('input', (e)=> {
     ui.clear();
