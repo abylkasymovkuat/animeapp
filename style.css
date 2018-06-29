@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    background-color: indianred;
+}
+
+nav {
+    background-color: indianred;
+    height: 15%;
+}
+
+nav div {
+    height:100%;
+}
+
+a {
+    width: fit-content;
+    display:block;
+    height:100%;
+}
+
+.logo {
+    height:100%;    
+}
+
+.main {
+    width:900px;
+}
+
+.anime-card {
+    /* height:50%; */
+}
+
+.anime-image {
+    display: block;
+    width: 100%;
+    /* height: 500px; */
+}
