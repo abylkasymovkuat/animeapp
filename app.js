@@ -18,6 +18,11 @@ document.querySelector('#logo img').addEventListener('mouseover', (e)=>
 {
      document.querySelector('#logo img').setAttribute('src', 'http://www.youloveit.ru/uploads/posts/2017-05/1494861649_youloveit_ru_kot_pushin02.png');
 })
+
+document.querySelector('#logo img').addEventListener('mouseout', (e)=>
+{
+     document.querySelector('#logo img').setAttribute('src', 'http://www.youloveit.ru/uploads/posts/2017-05/1494861572_youloveit_ru_kot_pushin11.png');
+})
    
 
 document.querySelector('#movieName').addEventListener('input', (e)=> {
