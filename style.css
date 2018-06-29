@@ -18,13 +18,13 @@ nav div {
     height:100%;
 }
 
-a {
+#logo {
     width: fit-content;
     display:block;
-   
+    height:100%;
 }
 
-.logo {
+#logo img {
     height:100%;    
 }
 
