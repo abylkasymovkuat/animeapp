@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "scripts": {
+    "deploy": "gh-pages-deploy",
+    "clean-source": "rimraf README.md src webroot package.json"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/abylkasymovkuat/animeapp/issues"
   },
-  "homepage": "https://abylkasymovkuat.github.io/animeapp/",
+  "homepage": "https://abylkasymovkuat.github.io",
   "predeploy": "npm run build",
   "deploy":"gh-pages -d build",
   "dependencies": {
