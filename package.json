@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/abylkasymovkuat/animeapp/issues"
   },
-  "homepage": "https://github.com/abylkasymovkuat/animeapp/",
+  "homepage": "https://abylkasymovkuat.github.io/animeapp/",
   "predeploy": "npm run build",
   "deploy":"gh-pages -d build",
   "dependencies": {
