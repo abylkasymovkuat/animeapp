@@ -16,7 +16,7 @@ http.getMovies('https://kitsu.io/api/edge/anime?page[limit]=20/').then(x=>{x.dat
 
 document.querySelector('#logo img').addEventListener('onmouserover', (e)=>
 {
-    this.setAttribuet('src', 'http://www.youloveit.ru/uploads/posts/2017-05/1494861649_youloveit_ru_kot_pushin02.png');
+    this.setAttribute('src', 'http://www.youloveit.ru/uploads/posts/2017-05/1494861649_youloveit_ru_kot_pushin02.png');
 })
    
 
