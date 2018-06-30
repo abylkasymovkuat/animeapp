@@ -27,7 +27,7 @@ document.querySelector('#logo img').addEventListener('mouseout', (e)=>
 
 document.querySelector('#movieName').addEventListener('input', (e)=> {
     ui.clear();
-    http.getMovies(`https://kitsu.io/api/edge/anime?filter[text]=${e.target.value}`)
+    http.getMovies(`https://kitsu.io/api/edge/anime?filter[text]=${e.target.value.trim()}`)
     .then(x=>{x.data.forEach(element => {
         ui.drawAnimes(element);
         console.log(element)
